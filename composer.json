@@ -1,0 +1,24 @@
+{
+    "name": "ravindra/tddworkshop",
+<<<<<<< HEAD
+=======
+    "description": "TDD workshop",
+    "license": "MIT",
+>>>>>>> 204c1a6d83e36561f5db3c6edc46d8abd34ddad9
+    "authors": [
+        {
+            "name": "Ravindra Ahire",
+            "email": "ravi.ahire08@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {"phpreboot\\": "src/phpreboot"}
+	},
+	"autoload-dev": {
+		"psr-4": {"phpreboot\\": "tests/phpreboot"}
+	},
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.8"
+    }	
+}
